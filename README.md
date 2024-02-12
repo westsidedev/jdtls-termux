@@ -13,3 +13,5 @@
 **or**
 
 `./install link_release_jdtls`
+
+**You can get the link to the latest version [here](https://download.eclipse.org/jdtls/milestones/)**
