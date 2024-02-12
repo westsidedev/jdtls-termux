@@ -14,4 +14,4 @@
 
 `./install link_release_jdtls`
 
-**You can get the link to the latest version [here](https://download.eclipse.org/jdtls/milestones/)**
+**You can get the link to the latest version [here](https://download.eclipse.org/jdtls/milestones/),after that be patient because the first time you run helix in a java project it will take a while to detect, you will have to close and open it again.**
