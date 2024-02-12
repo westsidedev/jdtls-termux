@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function install(){
+  mkdir .java-lsp
+  if [ -n "$1" ];then
+    wget $1 -O .java-lsp/jdtls.tar.gz
+  else
+    wget https://download.eclipse.org/jdtls/milestones/1.32.0/jdt-language-server-1.32.0-202402011424.tar.gz -O .java-lsp/jdtls.tar.gz
+  fi
+  tar -xvf .java-lsp/jdtls.tar.gz -C .java-lsp/ && rm -rf .java-lsp/jdtls.tar.gz
+  mv -f .java-lsp/ $HOME 
+  # add jdtls to path
+  echo -e "export JDTLS=\"\$HOME/.java-lsp\"\nexport PATH=\$JDTLS/bin:\$PATH" >> $HOME/.bashrc
+  clear
+  echo -e "\033[01;32mDone! Please reload termux or exec source \$HOME/.bashrc"
+}
+
+pkg in python openjdk-17 maven wget helix helix-grammars
+install $*
