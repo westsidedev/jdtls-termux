@@ -1,17 +1,21 @@
 # Notice
-**This script will install [JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) in your termux to use with [Helix-editor](https://github.com/helix-editor/helix), if you don't want to use this editor, consider using [AstroNvim](https://github.com/AstroNvim/AstroNvim) as it already has support for installing jdtls alone**
+> [!NOTE]
+>**This script will install [JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls) in your termux to use with [Helix-editor](https://github.com/helix-editor/helix), if you don't want to use this editor, consider using [AstroNvim](https://github.com/AstroNvim/AstroNvim) as it already has support for installing jdtls alone**
 
-# Usage 
-`git clone https://github.com/WestSideDev/jdtls-termux`
+# Usage
+> [!TIP]
+>+ `git clone https://github.com/WestSideDev/jdtls-termux`
+>+ `cd jdtls-termux/`
+>+ `chmod +x install`
+>+ `./install`
+>+ 
+>**or**
+>+ `./install link_release_jdtls`
 
-`cd jdtls-termux/`
+> [!IMPORTANT]
+> **You can get the link to the latest version [here](https://download.eclipse.org/jdtls/milestones/),after that be patient because the first time you run helix in a java project it will take a while to detect, you will have to close and open it again.**
 
-`chmod +x install`
+# Screenshots
+![photo1](/screenshots/photo1.jpg)
 
-`./install`
-
-**or**
-
-`./install link_release_jdtls`
-
-**You can get the link to the latest version [here](https://download.eclipse.org/jdtls/milestones/),after that be patient because the first time you run helix in a java project it will take a while to detect, you will have to close and open it again.**
+![photo2](/screenshots/photo2.jpg)
