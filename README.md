@@ -19,3 +19,6 @@
 ![photo1](/screenshots/photo1.jpg)
 
 ![photo2](/screenshots/photo2.jpg)
+
+# MIT License
+**Copyright (c) 2024 WestSideDev**
