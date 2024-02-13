@@ -8,7 +8,7 @@
 >+ `cd jdtls-termux/`
 >+ `chmod +x install`
 >+ `./install`
->+ 
+>  
 >**or**
 >+ `./install link_release_jdtls`
 
